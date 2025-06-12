@@ -25,6 +25,7 @@ systemctl enable mysqld   # Enable on boot
 ✅ Verify Port and Process
 
 netstat -lntp          # Ensure port 3306 is open
+
 ps -ef | grep mysql    # Verify MySQL process is running
 
 🔐 Set Root Password
