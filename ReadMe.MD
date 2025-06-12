@@ -38,11 +38,9 @@ mysql_secure_installation --set-root-pass ExpenseApp@1
 
 🔄 Client-Server Clarification
 
-Component	        Software Name
+Server Software --> mysql-server
 
-Server Software     mysql-server
-
-Client Software     Mysql
+Client Software --> Mysql
 
 ✅ Install MySQL Client
 
@@ -67,13 +65,11 @@ MySQL Server
 
 Example Use Cases:
 
-Schema/Database	    Table Example
+user --> user information
 
-user	            user information
+posts --> blog posts
 
-posts	            blog posts
-
-videos	            video metadata
+videos --> video metadata
 
 📊 Useful MySQL Commands
 
